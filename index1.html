@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .box {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(184, 178, 178);
+
+        }
+
+        /* .confirmed {
+            width: 450px;
+            min-height: 20%;
+            background-color: #ffffff;
+            position: fixed;
+            border-radius: 7px;
+            filter: brightness(1);
+            padding-bottom: 25px;
+        }
+
+        .confirmed-img {
+            margin: 12px 20px;
+        }
+
+        .confirmed h2 {
+            font-weight: bold;
+            margin: 0px 20px;
+        }
+
+        .food {
+            color: rgb(159, 157, 157);
+            font-size: .8rem;
+            margin: 4px 20px;
+        }
+
+        .carted-list {
+            background-color: #f9f7f7;
+            width: 90%;
+            height: auto;
+            margin: 15px 20px;
+            padding-bottom: 2px;
+        }
+
+        .content-holder {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .content-holder img {
+            border-radius: 2px;
+        }
+
+        .carted-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            position: relative;
+            margin: 0 20px;
+        }
+
+        .carted-total-price {
+            font-weight: 600;
+        }
+
+        .carted-price {
+            color: #908f8f;
+        }
+
+        .sep-lines {
+            background-color: #ececec;
+            height: 1px;
+            width: 90%;
+            bottom: 0%;
+            position: absolute;
+        }
+
+        .New {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0px;
+            cursor: pointer;
+            width: 87%;
+            border-radius: 20px;
+            margin: auto;
+            background-color: rgb(192, 49, 16);
+            font-size: .9rem;
+            color: white;
+            transition: .5s;
+        }
+
+        .New:hover {
+            background-color: rgb(146, 51, 30);
+        }
+
+        .confirm-total {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            margin: 17px auto;
+            font-size: .8rem;
+            color: rgb(92, 90, 90);
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="confirmed">
+            <img class="confirmed-img" src="assets/images/icon-order-confirmed.svg" alt="">
+            <h2>Order Confirmed</h2>
+            <span class="food"> We hope you enjoy your food!</span>
+            <div class="carted-list">
+                <div class="carted-item">
+                    <div class="content-holder">
+                        <img width="14%" height="100%" src="assets\images\image-baklava-thumbnail.jpg" alt="">
+                        <div class="carted-info">
+                            <h5 class="carted-name">Waffle with Berries</ht>
+                                <p><span class="count">1x</span> <span class="carted-price">@ $3.4</span></p>
+                        </div>
+                    </div>
+                    <div class="carted-total-price">$45</div>
+                    <div class="sep-lines"></div>
+                </div>
+              
+                <div class="confirm-total">
+                    <span class="order-total">Order Total</span>
+                    <span class="amount">$0.00</span>
+                </div>
+
+            </div>
+            <div class="New">Start New Order</div>
+        </div>
+    </div>
+</body>
+
+</html>

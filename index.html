@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecomerce Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <span class="desert">Desert</span>
+        </header>
+        <div class="Box">
+            <div class="menu">
+                <div class="list">
+
+                </div>
+            </div>
+            <div class="cart-box">
+                <div class="cart-info">
+                    <h1 class="Total-items">Your Cart (<span class="total-cart">0</span>)</h1>
+                    <div class="items-cart-list"></div>
+                    <div class="cart-empty">
+                        <img width="60%" height="60%" src="assets/images/illustration-empty-cart.svg" alt="">
+                        <h4 class="empty">Your Added items will appear here</h4>
+
+                    </div>
+
+
+                    <!-- <div class="parent">
+                        <div class="cart-fill">
+                            <div class="ordered-items">
+                                <span class="name">Waffle with Berries</span>
+                                <p><span class="count">1x</span> @ $4.5 <span class="payed-price">$4.5</span> </p>
+                            </div>
+                            <div class="cancel">
+                                <img src="assets/images/icon-remove-item.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="sep-line"></div>
+                   </div> -->
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="confirmed">
+        <img class="confirmed-img" src="assets/images/icon-order-confirmed.svg" alt="">
+        <h2>Order Confirmed</h2>
+        <span class="food"> We hope you enjoy your food!</span>
+        <div class="carted-list">
+            <div class="holder">
+                <div class="carted-item">
+                    <div class="content-holder">
+                        <img width="14%" height="100%" src="assets\images\image-baklava-thumbnail.jpg" alt="">
+                        <div class="carted-info">
+                            <h5 class="carted-name">Waffle with Berries</ht>
+                                <p><span class="confirmed">1x</span> <span class="carted-price">@ $3.4</span></p>
+                        </div>
+                    </div>
+                    <div class="carted-total-price">$0.00</div>
+                    <div class="sep-lines"></div>
+                </div>
+            </div>
+
+            <div class="confirm-total">
+                <span class="order-confirmed-total">Order Total</span>
+                <span class="confirmed-amount">$0.00</span>
+            </div>
+        </div>
+
+        <div onclick="handleStartNewOrder()" class="New">Start New Order</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<div class="more">
+         <img width="12px" height="12px" src="assets/images/icon-decrement-quantity.svg" alt="">
+         <span>5</span>
+         <img width="12px" height="12px" src="assets/images/icon-increment-quantity.svg" alt="">
+         </div>
+       <div class="item-cart">
+          <img src="assets/images/icon-add-to-cart.svg" alt="">
+          <span class="cart-text">Add to Cart</span>
+      </div>
+
+        <div class="ordered-items">
+                            <span class="name">Waffle</span>
+                            <p><span class="count">1x</span> @ $4.5 <span class="payed-price">$4.5</span> </p>
+                        </div>
+                        <div class="cancel">
+                            <img src="assets/images/icon-remove-item.svg" alt="">
+                        </div>
