@@ -17,7 +17,7 @@ const handleStartNewOrder = () => {
    document.querySelector('.confirmed').style.display = "none"
    document.querySelector('.container').style.filter = 'brightness(1)'
 
-     location.reload()
+   location.reload()
 }
 
 const hanldleConfirmOrder = () => {
@@ -42,7 +42,7 @@ const hanldleConfirmOrder = () => {
   </div>`
       document.querySelector('.confirmed-amount').innerHTML = document.querySelector('.amount').innerHTML
    })
- 
+
 }
 const handleTotalAmount = () => {
    let array = document.querySelectorAll('.payed-price')
@@ -210,7 +210,7 @@ const handleCartEvent = (cart) => {
 
 async function main() {
 
-   let a = await fetch('http://127.0.0.1:3000/data.json')
+   let a = await fetch('https://github.com/Shahmeer646/Online-Food-Order/blob/main/data.json')
    let b = await a.json()
    images = b
    localStorage.setItem("data", JSON.stringify(b))
