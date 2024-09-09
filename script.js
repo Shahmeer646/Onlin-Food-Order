@@ -210,7 +210,7 @@ const handleCartEvent = (cart) => {
 
 async function main() {
 
-   let a = await fetch('https://github.com/Shahmeer646/Online-Food-Order/blob/main/data.json')
+   let a = await fetch('data.json')
    let b = await a.json()
    images = b
    localStorage.setItem("data", JSON.stringify(b))
